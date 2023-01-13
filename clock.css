@@ -1,5 +1,4 @@
-.wall{
-    
+.wall{    
     margin: auto;
     background-color: rgb(0, 0, 0);
     width: 300px;
@@ -8,7 +7,17 @@
     align-items: center;
     border-radius: 50%;
 }
-
+span.brand {
+    position: absolute;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-style: oblique;
+    top: 10%;
+}
 .clock-face{
     border: 5px solid rgb(44, 248, 3);
     border-radius: 50%;
